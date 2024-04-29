@@ -1,0 +1,74 @@
+*{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(248, 193, 225);
+}
+
+.container {
+    text-align: center;
+}
+
+#gifContainerImg {
+    width: 30%;
+    height: 30%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+#siBtn {
+    padding: 10px 20px; 
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #00ffd5;
+    color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#noBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ee31e4; 
+    color: rgb(252, 252, 252);
+    border: 1px solid #070001;
+    border-radius: 20px;
+}
+#noBtn span {
+    font-size: 18px;
+    color: #e894f0;
+}
+
+#siBtn:hover{
+    background-color: #f58ce7; 
+}
+#noBtn:hover {
+    background-color: #bf80f3;
+}
+.bg-green {
+    background-color: #ac70f0; 
+}
+
+#messageContainer {
+    font-size: 30px;
+    color: #ee43c9; 
+    font-family: 'Georgia'; 
+    text-shadow: 2px 2px 4px #000000; 
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
